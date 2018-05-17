@@ -1,6 +1,11 @@
 Scheduling App
 
-Tech used: react
+If the app is made per the specs, redux is overkill and node is unnecessary, so I only used react.
+
+There are only 3 files the really do stuff and are not boilerplate:
+  App.css
+  App.js
+  EditModal.js
 
 To get this to run, do the following:
 1. open terminal
