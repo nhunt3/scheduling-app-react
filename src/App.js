@@ -90,9 +90,9 @@ class App extends Component {
           selectedMetadata={this.state.selectedMetadata}
         />
 
-        <header className="App-header">
-          <h1 className="App-title">Scheduling App</h1>
-        </header>
+        <div className="App-header">
+          <span className="App-title">Scheduling App</span>
+        </div>
         <ul>
           {listItems}
         </ul>

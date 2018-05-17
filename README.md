@@ -1,6 +1,6 @@
 Scheduling App
 
-If the app is made per the specs, redux is overkill and node is unnecessary, so I only used react.
+Made per specs (with no data persistence). React only (no redux, node, or mongo)
 
 There are only 3 files the really do stuff and are not boilerplate:
 App.css
