@@ -2,7 +2,7 @@ Scheduling App
 
 Made per specs (with no data persistence). React only (no redux, node, or mongo)
 
-There are only 3 files the really do stuff and are not boilerplate:
+There are only 3 files that really do stuff and are not boilerplate:
 App.css
 App.js
 EditModal.js
