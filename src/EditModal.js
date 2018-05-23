@@ -18,7 +18,7 @@ class EditModal extends Component {
     }
 
     static getDerivedStateFromProps(nextProps, prevState) {
-        if (nextProps.selectedMetadata !== undefined) {
+        if (nextProps.selectedMetadata !== undefined && Object.keys(nextProps.selectedMetadata).length !== 0) {
             return {
                 name: nextProps.selectedMetadata.name, 
                 phone: nextProps.selectedMetadata.phone
